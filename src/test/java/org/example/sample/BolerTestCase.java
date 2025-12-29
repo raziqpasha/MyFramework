@@ -1,0 +1,33 @@
+package org.example.sample;
+
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
+import org.testng.Assert;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+public class BolerTestCase {
+    public EdgeDriver driver;
+
+    @BeforeTest
+    public void openBrowser() {
+
+        EdgeOptions edgeOptions = new EdgeOptions();
+        edgeOptions.addArguments("--guest");
+        driver = new EdgeDriver(edgeOptions);
+
+    }
+
+    @Test
+    public void test() {
+        driver.get("https://app.vwo.com");
+        Assert.assertEquals(driver.getTitle(), "Login - VWO");
+    }
+
+    @AfterTest
+    public void closeBrowser() {
+
+        driver.quit();
+    }
+}

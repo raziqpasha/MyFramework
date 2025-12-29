@@ -1,0 +1,8 @@
+<suite name="RegressionSuite">
+    <test name="seleniumhclFramework">
+
+        <classes>
+            <class name="org.example.test.pageobjectmodelTest.vwo_login_Test"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,4 @@
+2025-12-28 02:43:27,085 INFO o.e.t.p.vwo_login_test_improved [main] starting login test with invalid credentials
+2025-12-28 02:43:27,091 DEBUG o.e.t.p.vwo_login_test_improved [main] whiel checking the scripts found some compile time error
+2025-12-28 02:43:27,093 FATAL o.e.t.p.vwo_login_test_improved [main] fatalerro-code is dead
+2025-12-28 02:43:27,095 ERROR o.e.t.p.vwo_login_test_improved [main] found error in the script

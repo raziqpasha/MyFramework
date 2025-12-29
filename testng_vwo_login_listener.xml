@@ -1,0 +1,12 @@
+<suite name="RegressionSuite">
+    <Listeners>
+        <listener class_name="org.example.listeners.RetryAnalyzer"/>
+        <listener class-name="org.example.listeners.ScreenshotListener"/>
+
+    </Listeners>
+    <test name="seleniumhclFramework">
+        <classes>
+            <class name="org.example.test.pageobjectmodelTest.vwo_login_test_listerners"/>
+        </classes>
+    </test>
+</suite>
