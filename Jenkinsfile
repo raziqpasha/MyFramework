@@ -20,4 +20,14 @@ pipeline {
             }
         }
     }
+
+    post {
+        always {
+            allure([
+                includeProperties: false,
+                jdk: '',               // optional, leave blank
+                results: [[path: 'allure-results']]
+            ])
+        }
+    }
 }
