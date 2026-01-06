@@ -1,12 +1,14 @@
 pipeline {
     agent any
 
-    stage('Checkout Code') {
-        steps {
-            git branch: 'main',
-                url: 'https://github.com/raziqpasha/MyFramework.git'
+    stages {
+
+        stage('Checkout Code') {
+            steps {
+                git branch: 'main',
+                    url: 'https://github.com/raziqpasha/MyFramework.git'
+            }
         }
-    }
 
         stage('Build') {
             steps {
@@ -25,7 +27,7 @@ pipeline {
         always {
             allure([
                 includeProperties: false,
-                jdk: '',               // optional, leave blank
+                jdk: '',
                 results: [[path: 'allure-results']]
             ])
         }
