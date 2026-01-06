@@ -1,7 +1,14 @@
-package org.example.pages.pageObjectModel;
+package org.example.pages.page_om_myntra;
 
+import org.example.Utils.PropertiesReader;
+import org.example.base.commonTo_myntra;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import java.util.List;
+
+import static org.example.base.commonTo_myntra.*;
 /*Scenario:
 
 1. Open Myntra website.
@@ -29,13 +36,29 @@ public class myntra_improved_pages {
 
     //locators
 
-    By search_item = By.xpath("//input[@placeholder=\"Search for products, brands and more\"]");
-    By product_7th = By.xpath("(//li[@class='product-base']//img)");
-    By add_t_cart = By.xpath("//div[text()='ADD TO BAG']");
+    private  By search_item = By.xpath("//input[@placeholder=\"Search for products, brands and more\"]");
+    private  By product_7th = By.xpath("(//li[@class='product-base']//img)");
+    private  By add_t_cart = By.xpath("//div[text()='ADD TO BAG']");
 
-    By bag_productstored = By.xpath("//span[@class=\"myntraweb-sprite desktop-iconBag sprites-headerBag\"]");
-    By remove_product = By.xpath("//button[text()='REMOVE']");
+    private  By bag_productstored = By.xpath("//span[@class=\"myntraweb-sprite desktop-iconBag sprites-headerBag\"]");
+    private  By remove_product = By.xpath("//button[text()='REMOVE']");
 
-    By remove_popup = By.xpath("//button[text()='REMOVE']");
+    private  By remove_popup = By.xpath("//div[@class='modal-base-modal bulkActionStrip-confirmationModalDesktop']//button[text()='REMOVE']");
+
+
+    //Actions
+
+    public void myntra_productsearch(){
+       openurl();
+        enterInput(search_item, PropertiesReader.readKey("product_details"));
+       // clickelemet(product_7th);
+        clickelemet(product_7th,6);
+        windowhandle();
+        clickelement(add_t_cart);
+        clickelement(bag_productstored);
+        clickelement(remove_product);
+        clickelement(remove_popup);
+
+    }
 
 }

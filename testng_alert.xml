@@ -1,0 +1,15 @@
+
+<suite name="regressionsuite">
+
+    <listeners>
+        <listener class-name="org.example.listeners.RetryListener"/>
+        <listener class-name="org.example.listeners.ScreenshotListener"/>
+    </listeners>
+
+    <test name="seleniumhclFramework">
+        <classes>
+            <class name="org.example.test.pageobjectmodelTest.alerts.alloperation"/>
+        </classes>
+    </test>
+
+</suite>

@@ -2,3 +2,52 @@
 2025-12-28 02:43:27,091 DEBUG o.e.t.p.vwo_login_test_improved [main] whiel checking the scripts found some compile time error
 2025-12-28 02:43:27,093 FATAL o.e.t.p.vwo_login_test_improved [main] fatalerro-code is dead
 2025-12-28 02:43:27,095 ERROR o.e.t.p.vwo_login_test_improved [main] found error in the script
+2025-12-30 02:52:08,084 INFO o.e.t.p.vwo_login_test_improved [main] starting login test with invalid credentials
+2025-12-30 02:52:08,088 DEBUG o.e.t.p.vwo_login_test_improved [main] whiel checking the scripts found some compile time error
+2025-12-30 02:52:08,090 FATAL o.e.t.p.vwo_login_test_improved [main] fatalerro-code is dead
+2025-12-30 02:52:08,092 ERROR o.e.t.p.vwo_login_test_improved [main] found error in the script
+2025-12-30 02:52:57,341 INFO o.e.t.p.vwo_login_test_improved [main] starting login test with invalid credentials
+2025-12-30 02:52:57,343 DEBUG o.e.t.p.vwo_login_test_improved [main] whiel checking the scripts found some compile time error
+2025-12-30 02:52:57,345 FATAL o.e.t.p.vwo_login_test_improved [main] fatalerro-code is dead
+2025-12-30 02:52:57,345 ERROR o.e.t.p.vwo_login_test_improved [main] found error in the script
+2026-01-05 14:52:20,721 INFO o.e.t.p.a.alloperation [main] these is alert accept popup
+2026-01-05 14:52:24,746 INFO o.e.t.p.a.alloperation [main] these is alert accept popup
+2026-01-05 14:52:27,609 INFO o.e.t.p.a.alloperation [main] these is alert accept popup
+2026-01-05 14:52:30,045 INFO o.e.t.p.a.alloperation [main] these is alert accept popup
+2026-01-05 15:00:22,166 INFO o.e.t.p.a.alloperation [main] these is alert accept popup
+2026-01-05 15:00:28,438 INFO o.e.t.p.a.alloperation [main] these is alert accept popup
+2026-01-05 15:00:31,371 INFO o.e.t.p.a.alloperation [main] these is alert accept popup
+2026-01-05 15:00:33,911 INFO o.e.t.p.a.alloperation [main] these is alert accept popup
+2026-01-05 15:01:00,074 INFO o.e.t.p.a.alloperation [main] these is alert accept popup
+2026-01-05 15:01:02,399 INFO o.e.t.p.a.alloperation [main] these is alert accept popup
+2026-01-05 15:01:05,247 INFO o.e.t.p.a.alloperation [main] these is alert accept popup
+2026-01-05 15:01:07,914 INFO o.e.t.p.a.alloperation [main] these is alert accept popup
+2026-01-05 18:01:32,442 INFO o.e.t.p.a.alloperation [main] TC:The keyboard operation is failed
+2026-01-05 18:01:34,644 INFO o.e.t.p.a.alloperation [main] TC:The keyboard operation is failed
+2026-01-05 18:01:36,962 INFO o.e.t.p.a.alloperation [main] TC:The keyboard operation is failed
+2026-01-05 18:01:39,067 INFO o.e.t.p.a.alloperation [main] TC:The keyboard operation is failed
+2026-01-05 18:03:00,554 INFO o.e.t.p.a.alloperation [main] TC:The keyboard operation is failed
+2026-01-06 00:09:31,617 INFO o.e.t.p.a.alloperation [main] TC:The keyboard operation is failed
+2026-01-06 00:09:39,481 INFO o.e.t.p.a.alloperation [main] TC:The keyboard operation is failed
+2026-01-06 00:09:46,148 INFO o.e.t.p.a.alloperation [main] TC:The keyboard operation is failed
+2026-01-06 00:09:54,422 INFO o.e.t.p.a.alloperation [main] TC:The keyboard operation is failed
+2026-01-06 00:11:19,656 INFO o.e.t.p.a.alloperation [main] TC:The keyboard operation is failed
+2026-01-06 00:11:33,173 INFO o.e.t.p.a.alloperation [main] TC:The keyboard operation is failed
+2026-01-06 00:11:37,493 INFO o.e.t.p.a.alloperation [main] TC:The keyboard operation is failed
+2026-01-06 00:11:40,126 INFO o.e.t.p.a.alloperation [main] TC:The keyboard operation is failed
+2026-01-06 00:17:06,632 INFO o.e.t.p.a.alloperation [main] TC:The keyboard operation is failed
+2026-01-06 00:17:11,510 INFO o.e.t.p.a.alloperation [main] TC:The keyboard operation is failed
+2026-01-06 00:17:18,701 INFO o.e.t.p.a.alloperation [main] TC:The keyboard operation is failed
+2026-01-06 00:17:25,018 INFO o.e.t.p.a.alloperation [main] TC:The keyboard operation is failed
+2026-01-06 00:22:35,675 INFO o.e.t.p.a.alloperation [main] TC:The keyboard operation is failed
+2026-01-06 00:22:43,140 INFO o.e.t.p.a.alloperation [main] TC:The keyboard operation is failed
+2026-01-06 00:22:46,780 INFO o.e.t.p.a.alloperation [main] TC:The keyboard operation is failed
+2026-01-06 00:22:50,271 INFO o.e.t.p.a.alloperation [main] TC:The keyboard operation is failed
+2026-01-06 00:24:47,119 INFO o.e.t.p.a.alloperation [main] logger.info("TC: Keyboard operation started");
+
+2026-01-06 00:24:52,955 INFO o.e.t.p.a.alloperation [main] logger.info("TC: Keyboard operation started");
+
+2026-01-06 00:24:55,910 INFO o.e.t.p.a.alloperation [main] logger.info("TC: Keyboard operation started");
+
+2026-01-06 00:25:01,205 INFO o.e.t.p.a.alloperation [main] logger.info("TC: Keyboard operation started");
+

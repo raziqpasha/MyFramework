@@ -1,9 +1,6 @@
 package org.example.Utils;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -26,6 +23,12 @@ public class WaitHelpers {
     public static void implicitWait(WebDriver driver, int time){
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(time));
     }
+
+    public static Alert webdriverwait_for_Alert(){
+        WebDriverWait wait = new WebDriverWait(getDriver(),Duration.ofSeconds(10));
+        return wait.until(ExpectedConditions.alertIsPresent());
+    }
+
 
     public static void checkVisibilityofelement(WebDriver driver, By locator, int time,String wng_email){
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(time));

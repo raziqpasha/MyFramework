@@ -2,9 +2,21 @@ pipeline {
     agent any
 
     stages {
-        stage('Build Test') {
+        stage('Checkout Code') {
             steps {
-                bat 'echo Jenkins Pipeline Working'
+                git 'https://github.com/raziqpasha/MyFramework.git'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                bat 'mvn clean compile'
+            }
+        }
+
+        stage('Test Execution') {
+            steps {
+                bat 'mvn test'
             }
         }
     }
