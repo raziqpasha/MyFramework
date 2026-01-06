@@ -1,12 +1,12 @@
 pipeline {
     agent any
 
-    stages {
-        stage('Checkout Code') {
-            steps {
-                git 'https://github.com/raziqpasha/MyFramework.git'
-            }
+    stage('Checkout Code') {
+        steps {
+            git branch: 'main',
+                url: 'https://github.com/raziqpasha/MyFramework.git'
         }
+    }
 
         stage('Build') {
             steps {
