@@ -9,7 +9,7 @@ import static org.example.driver.DriverManger.getDriver;
 public class commonTo_All_Page_improved {
 
     public void openurl(){
-        getDriver().get(PropertiesReader.readKey("url"));
+        getDriver().get(PropertiesReader.getURL());
     }
 
     public void clickelemet(By by){

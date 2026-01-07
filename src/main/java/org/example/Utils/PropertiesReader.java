@@ -7,9 +7,9 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class PropertiesReader {
+    private static Properties p =  new Properties();
 
-    public static String readKey(String key) {
-        Properties p =  new Properties();
+    static {
         try {
             FileInputStream fileInputStream = new FileInputStream(System.getProperty("user.dir") + "\\src\\main\\resources\\data.properties");
             p.load(fileInputStream);
@@ -19,9 +19,23 @@ public class PropertiesReader {
         catch (IOException e) {
             throw new RuntimeException(e);
         }
+    }
+    public static String readKey(String key) {
+
+
         return p.getProperty(key);
     }
 
 
+    public static String getURL() {
 
+        // Read env from Maven command, default = qa
+        String env = System.getProperty("env", "qa");
+
+        // Create key like: qa.url / dev.url / uat.url
+        String urlKey = env + ".url";
+
+        return p.getProperty(urlKey);
+    }
 }
+
