@@ -1,5 +1,6 @@
 package org.example.test.pageobjectmodelTest.myntra;
 
+import org.example.Utils.PropertiesReader;
 import org.example.base.commonToAll;
 import org.example.driver.DriverManger;
 import org.example.listeners.RetryAnalyzer;
@@ -18,6 +19,8 @@ public class myntra_improved_testcase extends commonToAll {
     @Test(retryAnalyzer = RetryAnalyzer.class)
     public void testscript(){
         WebDriver driver=DriverManger.getDriver();
+        System.out.println("env:"+System.getProperty("env"));
+        System.out.println("url:"+ PropertiesReader.getURL());
         myntra_improved_pages myntraImprovedPages = new myntra_improved_pages(driver);
         myntraImprovedPages.myntra_productsearch();
     }

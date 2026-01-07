@@ -14,7 +14,7 @@ public class commonTo_myntra {
 
     public static void openurl(){
 
-        getDriver().get(PropertiesReader.readKey("Myntra_url"));
+        getDriver().get(PropertiesReader.getURL());
     }
 
     public static void clickelemet(By by,int index){
