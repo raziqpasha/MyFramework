@@ -24,7 +24,7 @@ public class FreeTrail {
 
     //actions
     public void start_with_free_trail(String wrn_email){
-        driver.get(PropertiesReader.readKey("url"));
+        driver.get(PropertiesReader.getURL());
 
 
         WaitHelpers.waitForElementToBeClickable(driver,click_freeTrail,10).click();

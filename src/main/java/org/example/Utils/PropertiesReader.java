@@ -31,7 +31,9 @@ public class PropertiesReader {
 
         // Read env from Maven command, default = qa
         String env = System.getProperty("env", "qa");
-
+if(env==null || env.isEmpty()){
+    env="qa";
+}
         // Create key like: qa.url / dev.url / uat.url
         String urlKey = env + ".url";
 

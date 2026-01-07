@@ -36,6 +36,10 @@ public class vwo_login_Test extends commonToAll {
     public  void testcase_with_freeTrail(){
         WebDriver driver = DriverManger.getDriver();
 
+        System.out.println("ENV = " + System.getProperty("env"));
+        System.out.println("URL = " + PropertiesReader.getURL());
+
+
         FreeTrail freeTrail = new FreeTrail(driver);
         freeTrail.start_with_free_trail(PropertiesReader.readKey("illegal_email"));
 
