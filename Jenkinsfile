@@ -1,6 +1,15 @@
 pipeline {
     agent any
 
+    options {
+        skipDefaultCheckout(true)
+    }
+
+    tools {
+        maven 'Maven'
+        jdk 'JDK11'
+    }
+
     stages {
 
         stage('Checkout Code') {

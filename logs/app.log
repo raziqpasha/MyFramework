@@ -79,3 +79,11 @@
 2026-01-07 12:54:48,228 DEBUG o.e.t.p.vwo_login_test_improved [main] whiel checking the scripts found some compile time error
 2026-01-07 12:54:48,228 FATAL o.e.t.p.vwo_login_test_improved [main] fatalerro-code is dead
 2026-01-07 12:54:48,228 ERROR o.e.t.p.vwo_login_test_improved [main] found error in the script
+2026-01-10 01:23:16,157 INFO o.e.t.p.vwo_login_test_improved [main] starting login test with invalid credentials
+2026-01-10 01:23:16,159 DEBUG o.e.t.p.vwo_login_test_improved [main] whiel checking the scripts found some compile time error
+2026-01-10 01:23:16,161 FATAL o.e.t.p.vwo_login_test_improved [main] fatalerro-code is dead
+2026-01-10 01:23:16,162 ERROR o.e.t.p.vwo_login_test_improved [main] found error in the script
+2026-01-11 01:51:16,623 INFO o.e.t.p.vwo_login_test_improved [main] starting login test with invalid credentials
+2026-01-11 01:51:16,629 DEBUG o.e.t.p.vwo_login_test_improved [main] whiel checking the scripts found some compile time error
+2026-01-11 01:51:16,631 FATAL o.e.t.p.vwo_login_test_improved [main] fatalerro-code is dead
+2026-01-11 01:51:16,631 ERROR o.e.t.p.vwo_login_test_improved [main] found error in the script
